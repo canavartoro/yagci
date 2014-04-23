@@ -1,0 +1,129 @@
+[02:43:50] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.UVGrid(UVGrid ug, Int32 FORMID) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 368
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 215
+[03:22:52] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.UVGrid(UVGrid ug, Int32 FORMID) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 372
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 219
+[03:24:22] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.UVGrid(UVGrid ug, Int32 FORMID) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 372
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 219
+[03:24:38] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.UVGrid(UVGrid ug, Int32 FORMID) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 372
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 219
+[03:26:08] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.UVGrid(UVGrid ug, Int32 FORMID) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 372
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 219
+[03:41:01] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.UVGrid(UVGrid ug, Int32 FORMID) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 372
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 219
+[06:15:05] -> İstenen 'UIcone' değeri bulunamadı.   konum: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   konum: System.Enum.Parse(Type enumType, String value)
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 207
+[06:26:31] -> İstenen 'UIcone' değeri bulunamadı.   konum: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   konum: System.Enum.Parse(Type enumType, String value)
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 207
+[06:28:08] -> İstenen 'UIcone' değeri bulunamadı.   konum: System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   konum: System.Enum.Parse(Type enumType, String value)
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 207
+[12:56:20] -> Executing Sql 'select N0."OID",N0."FORMNAME",N0."KULLANICIID",N0."TARIH",N0."Values",N0."FIRMAID",N0."FORMID",N0."OptimisticLockField",N0."GCRecord" from "dbo"."FORMGENERIC" N0
+where (N0."GCRecord" is null and (N0."TARIH" = N'@CurrentDate'))' with parameters '' exception 'System.Data.SqlClient.SqlException: Conversion failed when converting date and/or time from character string.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlDataReader.HasMoreRows()
+   konum: System.Data.SqlClient.SqlDataReader.ReadInternal(Boolean setTimeout)
+   konum: System.Data.SqlClient.SqlDataReader.Read()
+   konum: DevExpress.Xpo.DB.ConnectionProviderSql.<>c__DisplayClass6.<InternalGetData>b__4()
+   konum: DevExpress.Xpo.Logger.LogManager.Log[T](String category, LogHandler`1 handler, MessageHandler`1 createMessageHandler)
+   konum: DevExpress.Xpo.DB.ConnectionProviderSql.InternalGetData(IDbCommand command, CriteriaOperatorCollection targets, Int32 skipClause, Int32 topClause)
+   konum: DevExpress.Xpo.DB.ConnectionProviderSql.SelectDataSimple(Query query, CriteriaOperatorCollection targets)'   konum: DevExpress.Xpo.DB.ConnectionProviderSql.SelectDataSimple(Query query, CriteriaOperatorCollection targets)
+   konum: DevExpress.Xpo.DB.ConnectionProviderSql.SelectData(Query query, CriteriaOperatorCollection targets)
+   konum: DevExpress.Xpo.DB.ConnectionProviderSql.ProcessSelectData(SelectStatement selects)
+   konum: DevExpress.Xpo.DB.DataStoreBase.ProcessSelectData(SelectStatement[] selects)
+   konum: DevExpress.Xpo.DB.DataStoreSerializedBase.SelectData(SelectStatement[] selects)
+   konum: DevExpress.Xpo.DB.ConnectionProviderSql.SelectData(SelectStatement[] selects)
+   konum: DevExpress.Xpo.SimpleDataLayer.SelectData(SelectStatement[] selects)
+   konum: DevExpress.Xpo.Helpers.DataLayerWrapperS18452.SelectData(SelectStatement[] selects)
+   konum: DevExpress.Xpo.Helpers.ObjectCollectionLoader.InternalLoadData(ObjectsQuery[] queries)
+   konum: DevExpress.Xpo.Helpers.ObjectCollectionLoader.LoadObjects(ObjectsQuery[] queries)
+   konum: DevExpress.Xpo.SimpleObjectLayer.LoadObjects(Session session, ObjectsQuery[] queries)
+   konum: DevExpress.Xpo.Session.GetObjectsInternal(ObjectsQuery[] queries)
+   konum: DevExpress.Xpo.Session.<>c__DisplayClasse.<GetObjects>b__c()
+   konum: DevExpress.Xpo.Logger.LogManager.Log[T](String category, LogHandler`1 handler, MessageHandler`1 createMessageHandler)
+   konum: DevExpress.Xpo.Session.GetObjects(ObjectsQuery[] queries)
+   konum: DevExpress.Xpo.Session.GetObjects(ObjectsQuery query)
+   konum: DevExpress.Xpo.XPBaseCollection.Load()
+   konum: DevExpress.Xpo.XPBaseCollection.get_Objects()
+   konum: DevExpress.Xpo.XPBaseCollection.get_Count()
+   konum: System.Windows.Forms.CurrencyManager.SetDataSource(Object dataSource)
+   konum: System.Windows.Forms.BindingContext.EnsureListManager(Object dataSource, String dataMember)
+   konum: System.Windows.Forms.BindingContext.get_Item(Object dataSource, String dataMember)
+   konum: DevExpress.Data.CurrencyDataController.GetCurrencyManager()
+   konum: DevExpress.Data.CurrencyDataController.OnDataSourceChanged()
+   konum: DevExpress.Data.CurrencyDataController.SetDataSource(BindingContext context, Object dataSource, String dataMember)
+   konum: DevExpress.XtraGrid.Views.Base.BaseView.SetDataSource(BindingContext context, Object dataSource, String dataMember)
+   konum: DevExpress.XtraGrid.Views.Base.ColumnView.SetDataSource(BindingContext context, Object dataSource, String dataMember)
+   konum: DevExpress.XtraGrid.Views.Grid.GridView.SetDataSource(BindingContext context, Object dataSource, String dataMember)
+   konum: DevExpress.XtraGrid.GridControl.ActivateDataSource()
+   konum: DevExpress.XtraGrid.GridControl.OnLoaded()
+   konum: DevExpress.XtraEditors.Container.EditorContainer.OnVisibleChanged(EventArgs e)
+   konum: DevExpress.XtraGrid.GridControl.OnVisibleChanged(EventArgs e)
+   konum: System.Windows.Forms.Control.OnParentVisibleChanged(EventArgs e)
+   konum: System.Windows.Forms.Control.OnVisibleChanged(EventArgs e)
+   konum: System.Windows.Forms.ScrollableControl.OnVisibleChanged(EventArgs e)
+   konum: System.Windows.Forms.Form.OnVisibleChanged(EventArgs e)
+   konum: System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   konum: System.Windows.Forms.Control.Show()
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.barButtonItem29_ItemClick(Object sender, ItemClickEventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 265
+[12:56:48] -> Property path 'CurrentDate' is incorrect for type 'YAGCI_SHIPPING.Data.Tables.FORMGENERIC' because member 'YAGCI_SHIPPING.Data.Tables.FORMGENERIC.CurrentDate' does not exist.   konum: DevExpress.Xpo.Metadata.Helpers.MemberInfoCollection..ctor(XPClassInfo classInfo, String[] matches, Boolean addNonPersistent, Boolean throwOnError)
+   konum: DevExpress.Xpo.Metadata.Helpers.MemberInfoCollection..ctor(XPClassInfo classInfo, String path, Boolean addNonPersistent, Boolean throwOnError)
+   konum: DevExpress.Xpo.Metadata.Helpers.MemberInfoCollection..ctor(XPClassInfo classInfo, String path, Boolean addNonPersistent)
+   konum: DevExpress.Xpo.Metadata.XPClassInfo.ParsePath(String path)
+   konum: DevExpress.Xpo.Metadata.Helpers.CriteriaTypeResolver.GetPropertyContext(String propertyName, Int32& level, MemberInfoCollection& path)
+   konum: DevExpress.Xpo.Metadata.Helpers.CriteriaTypeResolver.DevExpress.Data.Filtering.IClientCriteriaVisitor.Visit(OperandProperty theOriginalOperand)
+   konum: DevExpress.Data.Filtering.OperandProperty.Accept(ICriteriaVisitor visitor)
+   konum: DevExpress.Data.Filtering.Helpers.CriteriaTypeResolverBase.Process(CriteriaOperator criteria)
+   konum: DevExpress.Xpo.Metadata.Helpers.CriteriaTypeResolver.ResolveType(XPClassInfo[] upLevels, XPDictionary dictionary, CriteriaOperator criteria, Boolean resolveKey)
+   konum: DevExpress.Xpo.Helpers.PersistentCriterionExpander.Visit(BinaryOperator theOperator)
+   konum: DevExpress.Xpo.Helpers.StronglyTypedCriteriaVisitorBase.DevExpress.Data.Filtering.ICriteriaVisitor.Visit(BinaryOperator theOperator)
+   konum: DevExpress.Data.Filtering.BinaryOperator.Accept(ICriteriaVisitor visitor)
+   konum: DevExpress.Xpo.Helpers.UnknownCriteriaEleminatorBase.Process(CriteriaOperator operand)
+   konum: DevExpress.Xpo.Helpers.PersistentCriterionExpander.Expand(XPClassInfo[] upLevels, IPersistentValueExtractor persistentValuesSource, CriteriaOperator op, Int32 aliasDepthWatchDog, Boolean doDetectPostProcessing)
+   konum: DevExpress.Xpo.Helpers.PersistentCriterionExpander.Expand(XPClassInfo[] upLevels, IPersistentValueExtractor persistentValuesSource, CriteriaOperator op, Boolean doDetectPostProcessing)
+   konum: DevExpress.Xpo.Helpers.PersistentCriterionExpander.Expand(XPClassInfo ci, IPersistentValueExtractor persistentValuesSource, CriteriaOperator op, Boolean doDetectPostProcessing)
+   konum: DevExpress.Xpo.Helpers.PersistentCriterionExpander.Expand(IPersistentValueExtractor persistentValuesSource, XPClassInfo ci, CriteriaOperator op, Boolean doDetectPostProcessing)
+   konum: DevExpress.Xpo.Helpers.PersistentCriterionExpander.ExpandToLogical(IPersistentValueExtractor persistentValuesSource, XPClassInfo ci, CriteriaOperator op, Boolean doDetectPostProcessing)
+   konum: DevExpress.Xpo.Helpers.ObjectCollectionLoader.PrepareLoadObjects(ObjectsQuery[] queries)
+   konum: DevExpress.Xpo.Helpers.ObjectCollectionLoader.LoadObjects(ObjectsQuery[] queries)
+   konum: DevExpress.Xpo.SimpleObjectLayer.LoadObjects(Session session, ObjectsQuery[] queries)
+   konum: DevExpress.Xpo.Session.GetObjectsInternal(ObjectsQuery[] queries)
+   konum: DevExpress.Xpo.Session.<>c__DisplayClasse.<GetObjects>b__c()
+   konum: DevExpress.Xpo.Logger.LogManager.Log[T](String category, LogHandler`1 handler, MessageHandler`1 createMessageHandler)
+   konum: DevExpress.Xpo.Session.GetObjects(ObjectsQuery[] queries)
+   konum: DevExpress.Xpo.Session.GetObjects(ObjectsQuery query)
+   konum: DevExpress.Xpo.XPBaseCollection.Load()
+   konum: DevExpress.Xpo.XPBaseCollection.get_Objects()
+   konum: DevExpress.Xpo.XPBaseCollection.get_Count()
+   konum: System.Windows.Forms.CurrencyManager.SetDataSource(Object dataSource)
+   konum: System.Windows.Forms.BindingContext.EnsureListManager(Object dataSource, String dataMember)
+   konum: System.Windows.Forms.BindingContext.get_Item(Object dataSource, String dataMember)
+   konum: DevExpress.Data.CurrencyDataController.GetCurrencyManager()
+   konum: DevExpress.Data.CurrencyDataController.OnDataSourceChanged()
+   konum: DevExpress.Data.CurrencyDataController.SetDataSource(BindingContext context, Object dataSource, String dataMember)
+   konum: DevExpress.XtraGrid.Views.Base.BaseView.SetDataSource(BindingContext context, Object dataSource, String dataMember)
+   konum: DevExpress.XtraGrid.Views.Base.ColumnView.SetDataSource(BindingContext context, Object dataSource, String dataMember)
+   konum: DevExpress.XtraGrid.Views.Grid.GridView.SetDataSource(BindingContext context, Object dataSource, String dataMember)
+   konum: DevExpress.XtraGrid.GridControl.ActivateDataSource()
+   konum: DevExpress.XtraGrid.GridControl.OnLoaded()
+   konum: DevExpress.XtraEditors.Container.EditorContainer.OnVisibleChanged(EventArgs e)
+   konum: DevExpress.XtraGrid.GridControl.OnVisibleChanged(EventArgs e)
+   konum: System.Windows.Forms.Control.OnParentVisibleChanged(EventArgs e)
+   konum: System.Windows.Forms.Control.OnVisibleChanged(EventArgs e)
+   konum: System.Windows.Forms.ScrollableControl.OnVisibleChanged(EventArgs e)
+   konum: System.Windows.Forms.Form.OnVisibleChanged(EventArgs e)
+   konum: System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   konum: System.Windows.Forms.Control.Show()
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.barButtonItem29_ItemClick(Object sender, ItemClickEventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 265
+[18:46:15] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.UGrid(UGrid ug, FORMLAR FORM) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 272
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 212
+[18:49:32] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.UGrid(UGrid ug, FORMLAR FORM) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 272
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 212
+[18:49:43] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.UGrid(UGrid ug, FORMLAR FORM) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 272
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 212
+[18:51:12] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.UGrid(UGrid ug, FORMLAR FORM) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 272
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 212

@@ -1,0 +1,51 @@
+[10:55:18] -> Bilgiler dogru deil , kontrol ediniz..!   konum: YAGCI_SHIPPING.Formlar.FormLogin.btnGiris_Click(Object sender, EventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormLogin.cs içinde: satır 93
+[12:53:50] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 180
+[18:29:41] -> Değer null olamaz.
+Parametre adı: TypeName   konum: System.RuntimeType.PrivateGetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   konum: System.Type.GetType(String typeName)
+   konum: YAGCI_SHIPPING.Formlar.FormKLFORM.gridView1_DoubleClick(Object sender, EventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\Formlar\FormKLFORM.cs içinde: satır 42
+[18:29:46] -> Değer null olamaz.
+Parametre adı: TypeName   konum: System.RuntimeType.PrivateGetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   konum: System.Type.GetType(String typeName)
+   konum: YAGCI_SHIPPING.Formlar.FormKLFORM.gridView1_DoubleClick(Object sender, EventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\Formlar\FormKLFORM.cs içinde: satır 42
+[18:30:11] -> Değer null olamaz.
+Parametre adı: TypeName   konum: System.RuntimeType.PrivateGetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   konum: System.Type.GetType(String typeName)
+   konum: YAGCI_SHIPPING.Formlar.FormKLFORM.gridView1_DoubleClick(Object sender, EventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\Formlar\FormKLFORM.cs içinde: satır 42
+[18:30:17] -> Değer null olamaz.
+Parametre adı: TypeName   konum: System.RuntimeType.PrivateGetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   konum: System.Type.GetType(String typeName)
+   konum: YAGCI_SHIPPING.Formlar.FormKLFORM.gridView1_DoubleClick(Object sender, EventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\Formlar\FormKLFORM.cs içinde: satır 42
+[18:30:30] -> Bu form için MdiParent olarak belirtilen form, bir MdiContainer değil.
+Parametre adı: value   konum: System.Windows.Forms.Form.set_MdiParentInternal(Form value)
+   konum: System.Windows.Forms.Form.set_MdiParent(Form value)
+   konum: YAGCI_SHIPPING.Formlar.FormKLFORM.gridView1_DoubleClick(Object sender, EventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\Formlar\FormKLFORM.cs içinde: satır 44
+[18:31:42] -> Değer null olamaz.
+Parametre adı: TypeName   konum: System.RuntimeType.PrivateGetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   konum: System.Type.GetType(String typeName)
+   konum: YAGCI_SHIPPING.Formlar.FormKLFORM.gridView1_DoubleClick(Object sender, EventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\Formlar\FormKLFORM.cs içinde: satır 42
+[18:37:02] -> Değer null olamaz.
+Parametre adı: TypeName   konum: System.RuntimeType.PrivateGetType(String typeName, Boolean throwOnError, Boolean ignoreCase, Boolean reflectionOnly, StackCrawlMark& stackMark)
+   konum: System.Type.GetType(String typeName)
+   konum: YAGCI_SHIPPING.Formlar.FormKLFORM.gridView1_DoubleClick(Object sender, EventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\Formlar\FormKLFORM.cs içinde: satır 42
+[19:45:01] ->  Gemi adını seçiniz...    konum: YAGCI_SHIPPING.Formlar.FormLogin.btnGiris_Click(Object sender, EventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormLogin.cs içinde: satır 86
+[20:06:46] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.UVGrid(UVGrid ug, Int32 FORMID) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 367
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 214
+[20:08:27] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.UVGrid(UVGrid ug, Int32 FORMID) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 367
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 214
+[20:53:02] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.UVGrid(UVGrid ug, Int32 FORMID) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 367
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 214
+[20:53:16] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.UVGrid(UVGrid ug, Int32 FORMID) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 367
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 214
+[20:54:27] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.UVGrid(UVGrid ug, Int32 FORMID) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 367
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 214
+[20:57:23] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 179
+[21:08:09] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e)
+[21:13:19] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.UVGrid(UVGrid ug, Int32 FORMID) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 367
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 214
+[21:24:59] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 179
+[21:26:14] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 179
+[21:28:06] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 179
+[21:35:15] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 179
+[21:37:14] -> Lütfen tasarlanan forma bir isim giriniz..   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 145
+[21:37:32] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 179

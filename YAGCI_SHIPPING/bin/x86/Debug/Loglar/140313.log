@@ -1,0 +1,28 @@
+[22:56:16] -> yetki bilgileri alinamadi.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.Formlar() D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 106
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 76
+[22:59:40] -> Executing Sql 'insert into "dbo"."FORMLAR"("AD","BASLIK","NAMESPACE","RESIM","USTID","ISSUREC","SIRANO","GENERICID","LANDSCAPE")values(@p1,@p1,@p2,@p3,@p4,@p5,@p6,@p6,@p5) set @p0=SCOPE_IDENTITY() insert into "dbo"."KULLANICIGRUPDETAYLARI"("GRUPID","FORMID","KAYDETME","SILME","GUNCELLEME","IZLEME")values(@p8,@p0,@p5,@p5,@p5,@p5) set @p7=SCOPE_IDENTITY() set @r=1' with parameters '{},{TR},{YAGCI_SHIPPING.Formlar.FormGENERIC},{_1377905062_stock_task},{666},{False},{0},{56},{1},{1}' exception 'System.Data.SqlClient.SqlException: Cannot insert the value NULL into column 'OID', table 'YGSHP.dbo.FORMLAR'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: DevExpress.Xpo.DB.MSSqlConnectionProvider.<>c__DisplayClass2.<Exec>b__0()'   konum: DevExpress.Xpo.DB.MSSqlConnectionProvider.<>c__DisplayClass2.<Exec>b__0()
+   konum: DevExpress.Xpo.Logger.LogManager.Log[T](String category, LogHandler`1 handler, MessageHandler`1 createMessageHandler)
+   konum: DevExpress.Xpo.DB.MSSqlConnectionProvider.Exec(IDbCommand command, IDictionary parameters)
+   konum: DevExpress.Xpo.DB.MSSqlConnectionProvider.ProcessModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.DB.DataStoreSerializedBase.ModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.DB.ConnectionProviderSql.ModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.SimpleDataLayer.ModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.Helpers.DataLayerWrapperS18452.ModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.SimpleObjectLayer.CommitChanges(Session session, ICollection fullListForDelete, ICollection completeListForSave)
+   konum: DevExpress.Xpo.Session.FlushChangesInsideTransaction()
+   konum: DevExpress.Xpo.Session.FlushChanges()
+   konum: DevExpress.Xpo.Session.ProcessingProcess(ObjectSet markedObjectsHolder, Object theObject)
+   konum: DevExpress.Xpo.Session.Save(Object theObject)
+   konum: DevExpress.Xpo.XPBaseObject.Save()
+   konum: YAGCI_SHIPPING.FormDesing.barButtonItem2_ItemClick(Object sender, ItemClickEventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormDesing.cs içinde: satır 186

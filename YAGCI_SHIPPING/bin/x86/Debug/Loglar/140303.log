@@ -1,0 +1,20 @@
+[23:37:27] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.<MainMenu_Load>b__1(KULLANICI y) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 77
+   konum: System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   konum: System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.<MainMenu_Load>b__0(KULLANICIGRUPDETAYLARI x) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 77
+   konum: System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   konum: System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   konum: System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 76
+[23:42:54] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.<MainMenu_Load>b__1(KULLANICI y) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 77
+   konum: System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   konum: System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.<MainMenu_Load>b__0(KULLANICIGRUPDETAYLARI x) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 77
+   konum: System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   konum: System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   konum: System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 76
+[23:44:27] -> yetki bilgileri alinamadi.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 80
+[23:45:49] -> yetki bilgileri alinamadi.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 80
+[23:48:21] -> yetki bilgileri alinamadi.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 80
+[23:50:11] -> yetki bilgileri alinamadi.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 80

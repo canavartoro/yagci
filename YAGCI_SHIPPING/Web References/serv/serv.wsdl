@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="KayitlariAl">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dataList" type="tns:ArrayOfFORMGENERIC" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfFORMGENERIC">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FORMGENERIC" nillable="true" type="tns:FORMGENERIC" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="FORMGENERIC">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:XPObject">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="FORMNAME" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="KULLANICIID" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="TARIH" type="s:dateTime" />
+              <s:element minOccurs="0" maxOccurs="1" name="Values" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="FIRMAID" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="USTFORMID" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="FORMID" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="AKTARILDI" type="s:boolean" />
+              <s:element minOccurs="1" maxOccurs="1" name="XFormId" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="XPObject" abstract="true">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:XPCustomObject">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="Oid" type="s:int" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="XPCustomObject" abstract="true">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:XPBaseObject" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="XPBaseObject" abstract="true">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:PersistentBase" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="PersistentBase" />
+      <s:element name="KayitlariAlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="KayitlariAlResult" type="tns:ServisResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ServisResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Durum" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sonuc" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="FormlariAl">
+        <s:complexType />
+      </s:element>
+      <s:element name="FormlariAlResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FormlariAlResult" type="tns:ArrayOfGENERIC" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfGENERIC">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="GENERIC" nillable="true" type="tns:GENERIC" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="GENERIC">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:XPObject">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="CONTROLYYPE" type="tns:Control" />
+              <s:element minOccurs="1" maxOccurs="1" name="REPOTYPE" type="tns:Sekiller" />
+              <s:element minOccurs="1" maxOccurs="1" name="DOCK" type="tns:DockStyle" />
+              <s:element minOccurs="1" maxOccurs="1" name="XPOS" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="YPOS" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="HSIZE" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="WSIZE" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="COLCOUNT" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="ROWCOUNT" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="REPOITEMS" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="COLUMNS" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="HEADER" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="FORMNAME" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="CAPTION" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TEXT" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="ORDER" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="FORMID" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="USTFORMID" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="HSIZE1" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="WSIZE1" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="NAME" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SIZES" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="LANDSCAPE" type="s:boolean" />
+              <s:element minOccurs="0" maxOccurs="1" name="ICONEFILE" type="s:base64Binary" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:simpleType name="Control">
+        <s:restriction base="s:string">
+          <s:enumeration value="UGrid" />
+          <s:enumeration value="ULabel" />
+          <s:enumeration value="UMText" />
+          <s:enumeration value="UText" />
+          <s:enumeration value="UVGrid" />
+          <s:enumeration value="ULabels" />
+          <s:enumeration value="UIcone" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="Sekiller">
+        <s:restriction base="s:string">
+          <s:enumeration value="AcilirListe" />
+          <s:enumeration value="MetinGirisi" />
+          <s:enumeration value="Tarih" />
+          <s:enumeration value="EvetHayir" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="DockStyle">
+        <s:restriction base="s:string">
+          <s:enumeration value="None" />
+          <s:enumeration value="Top" />
+          <s:enumeration value="Bottom" />
+          <s:enumeration value="Left" />
+          <s:enumeration value="Right" />
+          <s:enumeration value="Fill" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="FormDataAktar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="data" type="tns:ArrayOfFORMGENERIC" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="FormDataAktarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FormDataAktarResult" type="tns:ServisResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="KayitlariAlSoapIn">
+    <wsdl:part name="parameters" element="tns:KayitlariAl" />
+  </wsdl:message>
+  <wsdl:message name="KayitlariAlSoapOut">
+    <wsdl:part name="parameters" element="tns:KayitlariAlResponse" />
+  </wsdl:message>
+  <wsdl:message name="FormlariAlSoapIn">
+    <wsdl:part name="parameters" element="tns:FormlariAl" />
+  </wsdl:message>
+  <wsdl:message name="FormlariAlSoapOut">
+    <wsdl:part name="parameters" element="tns:FormlariAlResponse" />
+  </wsdl:message>
+  <wsdl:message name="FormDataAktarSoapIn">
+    <wsdl:part name="parameters" element="tns:FormDataAktar" />
+  </wsdl:message>
+  <wsdl:message name="FormDataAktarSoapOut">
+    <wsdl:part name="parameters" element="tns:FormDataAktarResponse" />
+  </wsdl:message>
+  <wsdl:portType name="servSoap">
+    <wsdl:operation name="KayitlariAl">
+      <wsdl:input message="tns:KayitlariAlSoapIn" />
+      <wsdl:output message="tns:KayitlariAlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FormlariAl">
+      <wsdl:input message="tns:FormlariAlSoapIn" />
+      <wsdl:output message="tns:FormlariAlSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="FormDataAktar">
+      <wsdl:input message="tns:FormDataAktarSoapIn" />
+      <wsdl:output message="tns:FormDataAktarSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="servSoap" type="tns:servSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="KayitlariAl">
+      <soap:operation soapAction="http://tempuri.org/KayitlariAl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FormlariAl">
+      <soap:operation soapAction="http://tempuri.org/FormlariAl" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FormDataAktar">
+      <soap:operation soapAction="http://tempuri.org/FormDataAktar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="servSoap12" type="tns:servSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="KayitlariAl">
+      <soap12:operation soapAction="http://tempuri.org/KayitlariAl" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FormlariAl">
+      <soap12:operation soapAction="http://tempuri.org/FormlariAl" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="FormDataAktar">
+      <soap12:operation soapAction="http://tempuri.org/FormDataAktar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="serv">
+    <wsdl:port name="servSoap" binding="tns:servSoap">
+      <soap:address location="http://localhost/ys/serv.asmx" />
+    </wsdl:port>
+    <wsdl:port name="servSoap12" binding="tns:servSoap12">
+      <soap12:address location="http://localhost/ys/serv.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

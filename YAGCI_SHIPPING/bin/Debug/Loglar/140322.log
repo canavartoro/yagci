@@ -1,0 +1,76 @@
+[18:13:47] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.<>c__DisplayClassa.<Formlar>b__3(KULLANICIGRUPDETAYLARI x) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 120
+   konum: System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   konum: System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   konum: System.Linq.OrderedEnumerable`1.<GetEnumerator>d__0.MoveNext()
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.Formlar() c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 120
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 76
+[18:14:32] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.<>c__DisplayClassa.<Formlar>b__3(KULLANICIGRUPDETAYLARI x) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 120
+   konum: System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   konum: System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   konum: System.Linq.OrderedEnumerable`1.<GetEnumerator>d__0.MoveNext()
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.Formlar() c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 120
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 76
+[18:15:50] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.<>c__DisplayClassa.<Formlar>b__3(KULLANICIGRUPDETAYLARI x) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 120
+   konum: System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   konum: System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   konum: System.Linq.OrderedEnumerable`1.<GetEnumerator>d__0.MoveNext()
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.Formlar() c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 120
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 76
+[18:19:58] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.<>c__DisplayClassa.<Formlar>b__3(KULLANICIGRUPDETAYLARI x) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 120
+   konum: System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   konum: System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   konum: System.Linq.OrderedEnumerable`1.<GetEnumerator>d__0.MoveNext()
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.Formlar() c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 120
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 76
+[18:24:09] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.Formlar.FormGENERIC.UGrid(GENERIC g) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\Formlar\FormGENERIC.cs içinde: satır 228
+   konum: YAGCI_SHIPPING.Formlar.FormGENERIC.dizaynyukle() c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\Formlar\FormGENERIC.cs içinde: satır 572
+[18:25:19] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.Formlar.FormGENERIC.UGrid(GENERIC g) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\Formlar\FormGENERIC.cs içinde: satır 228
+   konum: YAGCI_SHIPPING.Formlar.FormGENERIC.dizaynyukle() c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\Formlar\FormGENERIC.cs içinde: satır 572
+[18:35:10] -> Nesne başvurusu bir nesnenin örneğine ayarlanmadı.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.<>c__DisplayClassa.<Formlar>b__3(KULLANICIGRUPDETAYLARI x) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 120
+   konum: System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   konum: System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   konum: System.Linq.OrderedEnumerable`1.<GetEnumerator>d__0.MoveNext()
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.Formlar() c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 120
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 76
+[18:49:26] -> 0 sütunu bulunamadı.   konum: System.Data.DataColumnCollection.get_Item(Int32 index)
+   konum: System.Data.DataRow.set_Item(Int32 columnIndex, Object value)
+   konum: YAGCI_SHIPPING.Formlar.FormGENERIC.UGrid(GENERIC g) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\Formlar\FormGENERIC.cs içinde: satır 249
+   konum: YAGCI_SHIPPING.Formlar.FormGENERIC.dizaynyukle() c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\Formlar\FormGENERIC.cs içinde: satır 572
+[18:50:21] -> 0 sütunu bulunamadı.   konum: System.Data.DataColumnCollection.get_Item(Int32 index)
+   konum: System.Data.DataRow.set_Item(Int32 columnIndex, Object value)
+   konum: YAGCI_SHIPPING.Formlar.FormGENERIC.UGrid(GENERIC g) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\Formlar\FormGENERIC.cs içinde: satır 249
+   konum: YAGCI_SHIPPING.Formlar.FormGENERIC.dizaynyukle() c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\Formlar\FormGENERIC.cs içinde: satır 572
+[18:51:26] -> 0 sütunu bulunamadı.   konum: System.Data.DataColumnCollection.get_Item(Int32 index)
+   konum: System.Data.DataRow.set_Item(Int32 columnIndex, Object value)
+   konum: YAGCI_SHIPPING.Formlar.FormGENERIC.UGrid(GENERIC g) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\Formlar\FormGENERIC.cs içinde: satır 249
+   konum: YAGCI_SHIPPING.Formlar.FormGENERIC.dizaynyukle() c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\Formlar\FormGENERIC.cs içinde: satır 572
+[18:51:35] -> Cannot add the 'YAGCI_SHIPPING.Data.Tables.GENERIC(14)' object with the key = '14' to the object identity map because another object 'YAGCI_SHIPPING.Data.Tables.GENERIC(14)' with the same key has already been added to it.   konum: DevExpress.Xpo.Helpers.WeakObjectIdentityMap.WeakObjectMap.DevExpress.Xpo.Helpers.IObjectMap.Add(Object theObject, Object id)
+   konum: DevExpress.Xpo.Helpers.ObjectIdentityMap.Add(IObjectMap objects, Object theObject, Object id)
+   konum: DevExpress.Xpo.Helpers.ObjectIdentityMap.Add(Object theObject, Object id)
+   konum: DevExpress.Xpo.Helpers.SessionIdentityMap.RegisterObject(Object theObject, Object key)
+   konum: DevExpress.Xpo.Helpers.SessionIdentityMap.RegisterObject(Session session, Object theObject, Object key)
+   konum: DevExpress.Xpo.Session.RegisterInsertedObject(Object theObject)
+   konum: DevExpress.Xpo.Helpers.ProcessingSave.ProcessResults(ModificationResult result)
+   konum: DevExpress.Xpo.SimpleObjectLayer.EndCommitChangesInsideTransaction(CommitChangesContext context)
+   konum: DevExpress.Xpo.SimpleObjectLayer.CommitChanges(Session session, ICollection fullListForDelete, ICollection completeListForSave)
+   konum: DevExpress.Xpo.Session.FlushChangesInsideTransaction()
+   konum: DevExpress.Xpo.Session.FlushChanges()
+   konum: DevExpress.Xpo.Session.ProcessingProcess(ObjectSet markedObjectsHolder, Object theObject)
+   konum: DevExpress.Xpo.Session.Save(Object theObject)
+   konum: DevExpress.Xpo.XPBaseObject.Save()
+   konum: YAGCI_SHIPPING.Formlar.FaturaSorgula.simpleButton1_Click(Object sender, EventArgs e) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\Formlar\FaturaSorgula.cs içinde: satır 60
+[18:51:44] -> Cannot add the 'YAGCI_SHIPPING.Data.Tables.GENERIC(8)' object with the key = '8' to the object identity map because another object 'YAGCI_SHIPPING.Data.Tables.GENERIC(8)' with the same key has already been added to it.   konum: DevExpress.Xpo.Helpers.WeakObjectIdentityMap.WeakObjectMap.DevExpress.Xpo.Helpers.IObjectMap.Add(Object theObject, Object id)
+   konum: DevExpress.Xpo.Helpers.ObjectIdentityMap.Add(IObjectMap objects, Object theObject, Object id)
+   konum: DevExpress.Xpo.Helpers.ObjectIdentityMap.Add(Object theObject, Object id)
+   konum: DevExpress.Xpo.Helpers.SessionIdentityMap.RegisterObject(Object theObject, Object key)
+   konum: DevExpress.Xpo.Helpers.SessionIdentityMap.RegisterObject(Session session, Object theObject, Object key)
+   konum: DevExpress.Xpo.Session.RegisterInsertedObject(Object theObject)
+   konum: DevExpress.Xpo.Helpers.ProcessingSave.ProcessResults(ModificationResult result)
+   konum: DevExpress.Xpo.SimpleObjectLayer.EndCommitChangesInsideTransaction(CommitChangesContext context)
+   konum: DevExpress.Xpo.SimpleObjectLayer.CommitChanges(Session session, ICollection fullListForDelete, ICollection completeListForSave)
+   konum: DevExpress.Xpo.Session.FlushChangesInsideTransaction()
+   konum: DevExpress.Xpo.Session.FlushChanges()
+   konum: DevExpress.Xpo.Session.ProcessingProcess(ObjectSet markedObjectsHolder, Object theObject)
+   konum: DevExpress.Xpo.Session.Save(Object theObject)
+   konum: DevExpress.Xpo.XPBaseObject.Save()
+   konum: YAGCI_SHIPPING.Formlar.FaturaSorgula.simpleButton1_Click(Object sender, EventArgs e) c:\Users\Administrator\Desktop\yagci_shipping-22.03.2014.14.07\YAGCI_SHIPPING\Formlar\FaturaSorgula.cs içinde: satır 60

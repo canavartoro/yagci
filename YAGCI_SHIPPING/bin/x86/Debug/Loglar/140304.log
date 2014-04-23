@@ -1,0 +1,91 @@
+[00:04:03] -> yetki bilgileri alinamadi.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 80
+[00:05:24] -> yetki bilgileri alinamadi.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 80
+[00:06:51] -> yetki bilgileri alinamadi.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 80
+[00:09:02] -> yetki bilgileri alinamadi.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 80
+[00:12:20] -> yetki bilgileri alinamadi.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 80
+[00:13:15] -> yetki bilgileri alinamadi.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 80
+[00:16:25] -> yetki bilgileri alinamadi.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 80
+[00:21:39] -> yetki bilgileri alinamadi.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 80
+[00:22:53] -> yetki bilgileri alinamadi.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 80
+[00:23:38] -> yetki bilgileri alinamadi.   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 80
+[21:01:12] -> Executing Sql 'delete from "dbo"."FORMLAR" where ("OID" = @p0) IF @@ROWCOUNT <> 1 begin set @r=0 RETURN end  set @r=1' with parameters '{1002},{0}' exception 'System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_KULLANICIGRUPDETAYLARI_FORMID". The conflict occurred in database "YGSHP", table "dbo.KULLANICIGRUPDETAYLARI", column 'FORMID'.
+The statement has been terminated.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: DevExpress.Xpo.DB.MSSqlConnectionProvider.<>c__DisplayClass2.<Exec>b__0()'   konum: DevExpress.Xpo.DB.MSSqlConnectionProvider.<>c__DisplayClass2.<Exec>b__0()
+   konum: DevExpress.Xpo.Logger.LogManager.Log[T](String category, LogHandler`1 handler, MessageHandler`1 createMessageHandler)
+   konum: DevExpress.Xpo.DB.MSSqlConnectionProvider.Exec(IDbCommand command, IDictionary parameters)
+   konum: DevExpress.Xpo.DB.MSSqlConnectionProvider.ProcessModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.DB.DataStoreSerializedBase.ModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.DB.ConnectionProviderSql.ModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.SimpleDataLayer.ModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.Helpers.DataLayerWrapperS18452.ModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.SimpleObjectLayer.CommitChanges(Session session, ICollection fullListForDelete, ICollection completeListForSave)
+   konum: DevExpress.Xpo.Session.FlushChangesInsideTransaction()
+   konum: DevExpress.Xpo.Session.FlushChanges()
+   konum: DevExpress.Xpo.Session.<CommitTransaction>b__4d()
+   konum: DevExpress.Xpo.Logger.LogManager.Log(String category, LogHandlerVoid handler, MessageHandler`1 createMessageHandler, ExceptionHandler exceptionHandler)
+   konum: DevExpress.Xpo.Session.CommitTransaction()
+   konum: DevExpress.Xpo.UnitOfWork.CommitChanges()
+   konum: YAGCI_SHIPPING.Formlar.FormGENERIC.btnSil_Click(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\Formlar\FormGENERIC.cs içinde: satır 623
+[21:03:05] -> Executing Sql 'delete from "dbo"."FORMLAR" where ("OID" = @p0) IF @@ROWCOUNT <> 1 begin set @r=0 RETURN end  set @r=1' with parameters '{1002},{0}' exception 'System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_KULLANICIGRUPDETAYLARI_FORMID". The conflict occurred in database "YGSHP", table "dbo.KULLANICIGRUPDETAYLARI", column 'FORMID'.
+The statement has been terminated.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: DevExpress.Xpo.DB.MSSqlConnectionProvider.<>c__DisplayClass2.<Exec>b__0()'   konum: DevExpress.Xpo.DB.MSSqlConnectionProvider.<>c__DisplayClass2.<Exec>b__0()
+   konum: DevExpress.Xpo.Logger.LogManager.Log[T](String category, LogHandler`1 handler, MessageHandler`1 createMessageHandler)
+   konum: DevExpress.Xpo.DB.MSSqlConnectionProvider.Exec(IDbCommand command, IDictionary parameters)
+   konum: DevExpress.Xpo.DB.MSSqlConnectionProvider.ProcessModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.DB.DataStoreSerializedBase.ModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.DB.ConnectionProviderSql.ModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.SimpleDataLayer.ModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.Helpers.DataLayerWrapperS18452.ModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.SimpleObjectLayer.CommitChanges(Session session, ICollection fullListForDelete, ICollection completeListForSave)
+   konum: DevExpress.Xpo.Session.FlushChangesInsideTransaction()
+   konum: DevExpress.Xpo.Session.FlushChanges()
+   konum: DevExpress.Xpo.Session.<CommitTransaction>b__4d()
+   konum: DevExpress.Xpo.Logger.LogManager.Log(String category, LogHandlerVoid handler, MessageHandler`1 createMessageHandler, ExceptionHandler exceptionHandler)
+   konum: DevExpress.Xpo.Session.CommitTransaction()
+   konum: DevExpress.Xpo.UnitOfWork.CommitChanges()
+   konum: YAGCI_SHIPPING.Formlar.FormGENERIC.btnSil_Click(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\Formlar\FormGENERIC.cs içinde: satır 632
+[21:03:21] -> Executing Sql 'delete from "dbo"."FORMLAR" where ("OID" = @p0) IF @@ROWCOUNT <> 1 begin set @r=0 RETURN end  set @r=1' with parameters '{1002},{0}' exception 'System.Data.SqlClient.SqlException: The DELETE statement conflicted with the REFERENCE constraint "FK_KULLANICIGRUPDETAYLARI_FORMID". The conflict occurred in database "YGSHP", table "dbo.KULLANICIGRUPDETAYLARI", column 'FORMID'.
+The statement has been terminated.
+   konum: System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   konum: System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   konum: System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   konum: System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   konum: System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   konum: System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   konum: DevExpress.Xpo.DB.MSSqlConnectionProvider.<>c__DisplayClass2.<Exec>b__0()'   konum: DevExpress.Xpo.DB.MSSqlConnectionProvider.<>c__DisplayClass2.<Exec>b__0()
+   konum: DevExpress.Xpo.Logger.LogManager.Log[T](String category, LogHandler`1 handler, MessageHandler`1 createMessageHandler)
+   konum: DevExpress.Xpo.DB.MSSqlConnectionProvider.Exec(IDbCommand command, IDictionary parameters)
+   konum: DevExpress.Xpo.DB.MSSqlConnectionProvider.ProcessModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.DB.DataStoreSerializedBase.ModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.DB.ConnectionProviderSql.ModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.SimpleDataLayer.ModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.Helpers.DataLayerWrapperS18452.ModifyData(ModificationStatement[] dmlStatements)
+   konum: DevExpress.Xpo.SimpleObjectLayer.CommitChanges(Session session, ICollection fullListForDelete, ICollection completeListForSave)
+   konum: DevExpress.Xpo.Session.FlushChangesInsideTransaction()
+   konum: DevExpress.Xpo.Session.FlushChanges()
+   konum: DevExpress.Xpo.Session.<CommitTransaction>b__4d()
+   konum: DevExpress.Xpo.Logger.LogManager.Log(String category, LogHandlerVoid handler, MessageHandler`1 createMessageHandler, ExceptionHandler exceptionHandler)
+   konum: DevExpress.Xpo.Session.CommitTransaction()
+   konum: DevExpress.Xpo.UnitOfWork.CommitChanges()
+   konum: YAGCI_SHIPPING.Formlar.FormGENERIC.btnSil_Click(Object sender, EventArgs e) D:\Projeler\Calismalar\YAGCI_SHIPPING\YAGCI_SHIPPING\Formlar\FormGENERIC.cs içinde: satır 632

@@ -1,0 +1,42 @@
+[12:31:32] -> Duplicate mapping to column 'OID' in class 'YAGCI_SHIPPING.Data.Tables.FORMLAR'.   konum: DevExpress.Xpo.Metadata.XPClassInfo.CheckMembers()
+   konum: DevExpress.Xpo.Metadata.ReflectionClassInfo..ctor(Type classType, XPDictionary dictionary)
+   konum: DevExpress.Xpo.Metadata.ReflectionDictionary.CreateClassInfo(Type classType)
+   konum: DevExpress.Xpo.Metadata.ReflectionDictionary.ResolveClassInfoByType(Type classType)
+   konum: DevExpress.Xpo.Metadata.ReflectionDictionary.QueryClassInfo(Type classType)
+   konum: DevExpress.Xpo.Metadata.XPMemberInfo.get_ReferenceType()
+   konum: DevExpress.Xpo.Metadata.XPMemberInfo.GetAssociatedMember()
+   konum: DevExpress.Xpo.Metadata.XPMemberInfo.get_IntermediateClass()
+   konum: DevExpress.Xpo.Metadata.XPMemberInfo.get_IsManyToMany()
+   konum: DevExpress.Xpo.Metadata.XPClassInfo.GetDirectlyRefTypes()
+   konum: DevExpress.Xpo.Metadata.XPClassInfo.FillRefTypes(Dictionary`2 filled)
+   konum: DevExpress.Xpo.Metadata.XPClassInfo.FillRefTypes(Dictionary`2 filled)
+   konum: DevExpress.Xpo.Metadata.XPClassInfo.GetRefTypes()
+   konum: DevExpress.Xpo.Metadata.XPDictionary.ExpandTypesToEnsure(XPClassInfo[] inputTypesToEnsure, IDictionary`2 alreadyEnsuredTypes)
+   konum: DevExpress.Xpo.SimpleDataLayer.UpdateSchema(Boolean dontCreate, XPClassInfo[] types)
+   konum: DevExpress.Xpo.Helpers.DataLayerWrapperS18452.UpdateSchema(Boolean dontCreateIfFirstTableNotExist, XPClassInfo[] types)
+   konum: DevExpress.Xpo.SimpleObjectLayer.UpdateSchema(Boolean dontCreateIfFirstTableNotExist, XPClassInfo[] types)
+   konum: DevExpress.Xpo.Session.UpdateSchema(Boolean dontCreateIfFirstTableNotExist, XPClassInfo[] types)
+   konum: DevExpress.Xpo.Helpers.ObjectCollectionLoader.PrepareLoadObjects(ObjectsQuery[] queries)
+   konum: DevExpress.Xpo.Helpers.ObjectCollectionLoader.LoadObjects(ObjectsQuery[] queries)
+   konum: DevExpress.Xpo.SimpleObjectLayer.LoadObjects(Session session, ObjectsQuery[] queries)
+   konum: DevExpress.Xpo.Session.GetObjectsInternal(ObjectsQuery[] queries)
+   konum: DevExpress.Xpo.Session.<>c__DisplayClasse.<GetObjects>b__c()
+   konum: DevExpress.Xpo.Logger.LogManager.Log[T](String category, LogHandler`1 handler, MessageHandler`1 createMessageHandler)
+   konum: DevExpress.Xpo.Session.GetObjects(ObjectsQuery[] queries)
+   konum: DevExpress.Xpo.Session.GetObjects(ObjectsQuery query)
+   konum: DevExpress.Xpo.XPBaseCollection.Load()
+   konum: DevExpress.Xpo.XPBaseCollection.get_Objects()
+   konum: DevExpress.Xpo.XPBaseCollection.System.Collections.IEnumerable.GetEnumerator()
+   konum: DevExpress.Xpo.XPCollection`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>d__0.MoveNext()
+   konum: System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   konum: System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   konum: System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   konum: YAGCI_SHIPPING.Formlar.FormLogin.Kullanicilar() C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormLogin.cs içinde: satır 56
+[12:54:58] -> Değer null olamaz.
+Parametre adı: name   konum: System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   konum: System.Resources.ResourceManager.GetObject(String name)
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 89
+[12:55:18] -> Değer null olamaz.
+Parametre adı: name   konum: System.Resources.ResourceManager.GetObject(String name, CultureInfo culture, Boolean wrapUnmanagedMemStream)
+   konum: System.Resources.ResourceManager.GetObject(String name)
+   konum: YAGCI_SHIPPING.Formlar.FormAnaEkran.MainMenu_Load(Object sender, EventArgs e) C:\Users\Administrator\Desktop\Projeler\yedek\YAGCI_SHIPPING\YAGCI_SHIPPING\FormAnaEkran.cs içinde: satır 89

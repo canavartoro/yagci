@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YAGCI_SHIPPING", "YAGCI_SHIPPING\YAGCI_SHIPPING.csproj", "{54DAD9D1-2496-4063-9BDA-244AAB7BD48E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YS", "YS\YS.csproj", "{13824D5F-3891-4D7F-B90F-5B7FDB1210A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54DAD9D1-2496-4063-9BDA-244AAB7BD48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54DAD9D1-2496-4063-9BDA-244AAB7BD48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54DAD9D1-2496-4063-9BDA-244AAB7BD48E}.Debug|x86.ActiveCfg = Debug|x86
+		{54DAD9D1-2496-4063-9BDA-244AAB7BD48E}.Debug|x86.Build.0 = Debug|x86
+		{54DAD9D1-2496-4063-9BDA-244AAB7BD48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54DAD9D1-2496-4063-9BDA-244AAB7BD48E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54DAD9D1-2496-4063-9BDA-244AAB7BD48E}.Release|x86.ActiveCfg = Release|x86
+		{54DAD9D1-2496-4063-9BDA-244AAB7BD48E}.Release|x86.Build.0 = Release|x86
+		{13824D5F-3891-4D7F-B90F-5B7FDB1210A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13824D5F-3891-4D7F-B90F-5B7FDB1210A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13824D5F-3891-4D7F-B90F-5B7FDB1210A4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{13824D5F-3891-4D7F-B90F-5B7FDB1210A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13824D5F-3891-4D7F-B90F-5B7FDB1210A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13824D5F-3891-4D7F-B90F-5B7FDB1210A4}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
